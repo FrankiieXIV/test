@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Formulario1.css">
+    <meta charset="utf-8">
+    <title>Test</title>
+    <script src="Controlador.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <h1>Welcome</h1>
+      <div id="innerPage">
+        <form action="Formulario2.html" name="form1">
+          <div id="text">
+            What's your name?
+          </div>
+          <input type="text" id="name" name="name" placeholder="Your Entry"><br>
+          <input type="submit" id="next" onclick="getDataFromForm1(this.form)" value="Next">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Formulario3.css">
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Controlador.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <h1>Resume</h1>
+      <div id="innerPage">
+        <form name="form3">
+          <ul>
+            <div class="text">
+              Email
+            </div>
+            <li><input type="text" name="email"></li>
+            <div class="text">
+              Confirm Email
+            </div>
+            <li><input type="text" name="emailConfirm"></li>
+            <div class="text">
+              Address Line
+            </div>
+            <li><input type="text" name="address"></li>
+            <div class="text">
+              Country
+            </div>
+            <li><input type="text" name="country"></li>
+            <div class="text">
+              State/Province
+            </div>
+            <li><input type="text" name="state"></li>
+            <div class="text">
+              City
+            </div>
+            <li><input type="text" name="city"></li>
+            <div class="text">
+              Zip/Post code
+            </div>
+            <li><input type="text" name="postcode"></li>
+            <div class="text">
+              Phone
+            </div>
+            <li><input type="text" name="phone"></li>
+            <div class="text">
+              Company
+            </div>
+            <li><input type="text" name="company"></li>
+            <div class="text">
+              Job title
+            </div>
+            <li><input type="text" name="job"></li>
+          </ul>
+          <input type="submit" id="send" onClick="getDataFromForm3(this.form)" value="Send">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

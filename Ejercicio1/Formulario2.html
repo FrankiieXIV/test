@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Formulario2.css">
+    <meta charset="utf-8">
+    <title></title>
+    <script src="Controlador.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <div id="innerPage">
+        <form action="Formulario3.html" name="form2">
+          <div id="innerForm">
+            <div id="text">
+              How old are you?
+            </div>
+            <input type="text" name="age" placeholder="Your Entry"><br>
+            <input type="submit" id="next" onclick="getDataFromForm2(this.form)" value="Next">
+          </div>
+        </form>
+        <button id="back" onclick="location.href = 'Formulario1.html';">Back</buttom>
+      </div>
+    </div>
+  </body>
+</html>
